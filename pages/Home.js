@@ -16,7 +16,7 @@ export default function homePage() {
               <br />
               <div>welcome to my world</div>
               <h1>
-                Hi, I'm <span id="name">Eswar K</span>
+                Hi, I&#39;m <span id="name">Eswar K</span>
               </h1>
               <h3>a Frontend developer.</h3>
               <div>
