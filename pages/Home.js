@@ -23,10 +23,7 @@ export default function homePage() {
                 an As a motivated front-end developer, I am eager to build
                 engaging and responsive websites. With a solid foundation in
                 HTML, CSS, JavaScript, and React, I focus on turning designs
-                into smooth, interactive user experiences. As a fresher, I am
-                dedicated to learning and improving, staying current with
-                industry trends, and writing clean, efficient code to deliver
-                user-friendly solutions.
+                into smooth, interactive user experiences.
               </div>
               <br />
               <br />
