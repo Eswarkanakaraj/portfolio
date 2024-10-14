@@ -1,10 +1,14 @@
+import React from 'react'
+import Nav from "./nav"
+import Home from "./Home"
 
-export default function Home() {
+
+export default function index() {
   return (
-    <div>
-      <h1>Welcome to My Awesome Website!</h1>
-      <p>This is the Home page. Here, you can learn all about cool stuff!</p>
-      
-    </div>
-  );
+    <>
+    <Nav/>
+    <Home/>
+   
+    </>
+  )
 }
