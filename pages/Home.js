@@ -109,8 +109,10 @@ export default function homePage() {
                 </Row>
               </div>
             </Col>
+           
             <Col md={12} sm={12}  lg={6}>
               <div id="con1">
+              <br/>  <br/>  <br/>
                 <div className="border"></div>
                 <img
                   className="img-responsive my-img"

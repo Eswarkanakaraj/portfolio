@@ -24,7 +24,7 @@ function nav() {
         </div>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav "
-          className=" cursor-pointer bg-danger"
+          className=" cursor-pointer bg-light"
           id="toggle"
         />
         <Navbar.Collapse id="basic-navbar-nav">
