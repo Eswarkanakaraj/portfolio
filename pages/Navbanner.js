@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-function nav() {
+function Navbanner() {
   return (
     <Navbar
       expand="sm"
@@ -53,4 +53,4 @@ function nav() {
   );
 }
 
-export default nav;
+export default Navbanner;

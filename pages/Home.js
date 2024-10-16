@@ -13,7 +13,7 @@ import {
 import { SiHtml5, SiAdobephotoshop, SiNextdotjs } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
-export default function homePage() {
+export default function HomePage() {
   const [text] = useTypewriter({
     words: ["Front End Developer.", "React Developer.", "UI Designer."],
     loop: true,
