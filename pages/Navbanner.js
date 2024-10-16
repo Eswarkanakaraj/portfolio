@@ -11,10 +11,11 @@ function Navbanner() {
         <div className="flex2">
       <img 
               src="logo.png"
-              width="60px"
-              height="60px"
+              width="50px"
+              height="50px"
               className="align-top rounded-circle -auto mr-"
               alt="logo"
+              priority
 
             />
             
