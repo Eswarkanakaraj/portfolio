@@ -1,0 +1,59 @@
+#head{
+    text-align: center !important;
+}
+.card{
+    background-color: rgb(33 36 40) !important;
+    --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #2e2e2f;
+    --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color),
+      -10px -10px 19px var(--tw-shadow-color);
+    box-shadow: 0 0 #00000000, 0 0 #0000, var(--tw-shadow);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    .tittle{
+       color: red !important; 
+       font-family: 'Times New Roman', Times, serif;
+    }
+    .tittle-flex{
+      display: flex;
+      justify-content: space-between;
+      .icon{
+       
+       margin: 7px;
+      
+     
+      
+      }
+      .card-icon{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        
+      }
+    }
+  }
+  
+ #circle{
+display: flex;
+justify-content: center;
+align-content: center;
+  // border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #2e2e2f;
+  --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color),
+    -10px -10px 19px var(--tw-shadow-color);
+  box-shadow: 0 0 #00000000, 0 0 #0000, var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+ }
+ #circle:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: translateY(-5px);
+  /* Moves the element 10px up */
+  
+ 
+}

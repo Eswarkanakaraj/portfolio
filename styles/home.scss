@@ -1,5 +1,6 @@
 #Home {
   width: 100vw;
+  height: auto;
 
   .my-img {
     filter: drop-shadow(12px 1px 2px black);
@@ -29,9 +30,7 @@
   color: rgb(255, 80, 80);
 }
 
-.flex-2 {
-  display: flex !important;
-}
+
 
 .all-icons {
   gap: 10px;
@@ -64,6 +63,9 @@
   
   }
 }
+.flex-2{
+  display: flex;
+}
 
 @media only screen and (max-width: 992px) {
   .my-img {
@@ -73,9 +75,9 @@
   }
 
   .border {
-    width: 300px !important;
+    width: 350px !important;
     height: 250px !important;
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   #Home {

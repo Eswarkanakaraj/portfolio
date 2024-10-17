@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   color: rgb(196 207 222);
+  scroll-behavior: smooth !important;
 }
 body {
   background-color: rgb(33 36 40) !important;
   overflow-x: hidden !important;
+  
  
 }

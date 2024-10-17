@@ -9,6 +9,7 @@ import {
   FaLinkedinIn,
   FaReact,
   FaGithub,
+  
 } from "react-icons/fa";
 import { SiHtml5, SiAdobephotoshop, SiNextdotjs } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -17,8 +18,8 @@ export default function HomePage() {
   const [text] = useTypewriter({
     words: ["Front End Developer.", "React Developer.", "UI Designer."],
     loop: true,
-    typeSpeed: 20,
-    deleteSpeed: 50,
+    typeSpeed: 40,
+    deleteSpeed: 20,
     delaySpeed: 2000,
   });
   return (
@@ -37,7 +38,7 @@ export default function HomePage() {
               <h2 className="text-4xl font-bold text-white">
                 a <span>{text}</span>
                 <Cursor
-                  cursorBlinking="false"
+                  cursorBlinking="true"
                   cursorStyle="|"
                   cursorColor="#ff014f"
                 />
@@ -74,6 +75,7 @@ export default function HomePage() {
                     <a href="" target="blank">
                       <div className="bannerIcon">
                         <FaLinkedinIn className="icon"/>
+                       
                       </div>
                     </a>
                     </div>
@@ -84,26 +86,26 @@ export default function HomePage() {
                   <Col >BEST SKILLS IN</Col>
                   <Col md={12}>
                   <div className="d-flex all-icons">
-                    <a href="" target="blank">
+                    
                       <div className="bannerIcon">
                         <SiAdobephotoshop className="icon" />
                       </div>
-                    </a>
-                    <a href="" target="blank">
+                    
+                    
                       <div className="bannerIcon">
                         <FaReact className="icon"/>
                       </div>
-                    </a>
-                    <a href="" target="blank">
+                    
+                    
                       <div className="bannerIcon">
                         <SiNextdotjs className="icon" />
                       </div>
-                    </a>
-                    <a href="" target="blank">
+                    
+                    
                       <div className="bannerIcon">
                         <SiHtml5 className="icon"/>
                       </div>
-                    </a>
+                    
                       </div>
                   </Col>
                 </Row>
@@ -112,10 +114,10 @@ export default function HomePage() {
            
             <Col md={12} sm={12}  lg={6}>
               <div id="con1">
-              <br/>  <br/>  <br/>
+              <br/>  
                 <div className="border"></div>
                 <img
-                  className="img-responsive my-img"
+                  className="img-responsive my-img "
                   width={"500"}
                   height={"auto"}
                   src="eswar1.png"
@@ -127,6 +129,7 @@ export default function HomePage() {
           </Row>
         </Container>
       </section>
+      
       
      
     </div>
