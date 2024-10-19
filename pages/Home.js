@@ -9,7 +9,6 @@ import {
   FaLinkedinIn,
   FaReact,
   FaGithub,
-  
 } from "react-icons/fa";
 import { SiHtml5, SiAdobephotoshop, SiNextdotjs } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -27,7 +26,7 @@ export default function HomePage() {
       <section id="Home">
         <Container>
           <Row>
-            <Col md={12} sm={12}  lg={6}>
+            <Col md={12} sm={12} lg={6}>
               <br /> <br /> <br />
               <br />
               <br />
@@ -51,70 +50,63 @@ export default function HomePage() {
               </div>
               <br />
               <br />
-              <div className="flex-2" >
+              <div className="flex-2">
                 <Row>
-                  <Col md={12} >FIND ME IN</Col>
-                  
+                  <Col md={12}>FIND ME IN</Col>
+
                   <Col md={12}>
-                  <div className="d-flex all-icons">
-                    <a href="" target="blank">
-                      <div className="bannerIcon  ">
-                        <FaTwitter className="icon"  />
-                      </div>
-                    </a>
-                    <a href="https://github.com/dashboard" target="blank">
-                      <div className="bannerIcon">
-                        <FaGithub className="icon"/>
-                      </div>
-                    </a>
-                    <a href="" target="blank">
-                      <div className="bannerIcon">
-                        <FaInstagram className="icon"/>
-                      </div>
-                    </a>
-                    <a href="" target="blank">
-                      <div className="bannerIcon">
-                        <FaLinkedinIn className="icon"/>
-                       
-                      </div>
-                    </a>
+                    <div className="d-flex all-icons">
+                      <a href="" target="blank">
+                        <div className="bannerIcon  ">
+                          <FaTwitter className="icon" />
+                        </div>
+                      </a>
+                      <a href="https://github.com/dashboard" target="blank">
+                        <div className="bannerIcon">
+                          <FaGithub className="icon" />
+                        </div>
+                      </a>
+                      <a href="" target="blank">
+                        <div className="bannerIcon">
+                          <FaInstagram className="icon" />
+                        </div>
+                      </a>
+                      <a href="" target="blank">
+                        <div className="bannerIcon">
+                          <FaLinkedinIn className="icon" />
+                        </div>
+                      </a>
                     </div>
                   </Col>
-               
                 </Row>
                 <Row>
-                  <Col >BEST SKILLS IN</Col>
+                  <Col>BEST SKILLS IN</Col>
                   <Col md={12}>
-                  <div className="d-flex all-icons">
-                    
+                    <div className="d-flex all-icons">
                       <div className="bannerIcon">
                         <SiAdobephotoshop className="icon" />
                       </div>
-                    
-                    
+
                       <div className="bannerIcon">
-                        <FaReact className="icon"/>
+                        <FaReact className="icon" />
                       </div>
-                    
-                    
+
                       <div className="bannerIcon">
                         <SiNextdotjs className="icon" />
                       </div>
-                    
-                    
+
                       <div className="bannerIcon">
-                        <SiHtml5 className="icon"/>
+                        <SiHtml5 className="icon" />
                       </div>
-                    
-                      </div>
+                    </div>
                   </Col>
                 </Row>
               </div>
             </Col>
-           
-            <Col md={12} sm={12}  lg={6}>
+
+            <Col md={12} sm={10} lg={6}>
               <div id="con1">
-              <br/>  
+                <br />
                 <div className="border"></div>
                 <img
                   className="img-responsive my-img "
@@ -123,15 +115,11 @@ export default function HomePage() {
                   src="eswar1.png"
                   alt="my img"
                 />
-               
               </div>
             </Col>
           </Row>
         </Container>
       </section>
-      
-      
-     
     </div>
   );
 }

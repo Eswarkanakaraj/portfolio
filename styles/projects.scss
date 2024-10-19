@@ -1,42 +1,42 @@
-#head{
-    text-align: center !important;
+#head {
+  text-align: center !important;
+  text-decoration: underline;
+  word-spacing: 10px;
+  letter-spacing: 3px;
 }
-.card{
-    background-color: rgb(33 36 40) !important;
-    --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #2e2e2f;
-    --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color),
-      -10px -10px 19px var(--tw-shadow-color);
-    box-shadow: 0 0 #00000000, 0 0 #0000, var(--tw-shadow);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-    .tittle{
-       color: red !important; 
-       font-family: 'Times New Roman', Times, serif;
+.card {
+  background-color: rgb(33 36 40) !important;
+  --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #2e2e2f;
+  --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color),
+    -10px -10px 19px var(--tw-shadow-color);
+  box-shadow: 0 0 #00000000, 0 0 #0000, var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    height: 100%;
+   
+  .tittle {
+    color: red !important;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .tittle-flex {
+    display: flex;
+    justify-content: space-between;
+    .icon {
+      margin: 7px;
     }
-    .tittle-flex{
+    .card-icon {
       display: flex;
-      justify-content: space-between;
-      .icon{
-       
-       margin: 7px;
-      
-     
-      
-      }
-      .card-icon{
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        align-items: center;
-        
-      }
+      justify-content: center;
+      align-self: center;
+      align-items: center;
     }
   }
-  
- #circle{
-display: flex;
-justify-content: center;
-align-content: center;
+}
+
+#circle {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   // border: 1px solid white;
   width: 30px;
   height: 30px;
@@ -49,11 +49,20 @@ align-content: center;
   box-shadow: 0 0 #00000000, 0 0 #0000, var(--tw-shadow);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
- }
- #circle:hover {
+}
+#circle:hover {
   transition: transform 0.2s ease-in-out;
   transform: translateY(-5px);
   /* Moves the element 10px up */
-  
- 
+}
+
+.card1:hover {
+  transform: scale(1.05); /* Scale up the image on hover */
+  cursor: pointer;
+
+  border-radius: 6px;
+
+  #circle {
+    box-shadow: none;
+  }
 }

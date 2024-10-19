@@ -2,6 +2,7 @@ import React from 'react'
 import Navbanner from "./Navbanner"
 import Home from "./Home"
 import Projects from "./Projects"
+import Resumes from "./Resumes"
 
 
 export default function index() {
@@ -10,8 +11,7 @@ export default function index() {
     <Navbanner/>
     <Home/>
     <Projects/>
-   
-    
+    <Resumes/>
     </>
   )
 }

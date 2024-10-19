@@ -7,13 +7,18 @@
   cursor: pointer;
 
   #toggle {
-    border-radius: 25px;
+    border-radius: 15px;
     width: 50px;
     height: 50px;
   }
   #flex1 {
     gap: 20px;
+
+
   }
+ #hov:hover{
+color: red !important;
+ }
   img {
     box-shadow: 0px 0px 1px 1px rgb(101, 99, 99);
   }
