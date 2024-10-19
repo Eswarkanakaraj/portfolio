@@ -27,9 +27,11 @@ export default function HomePage() {
         <Container>
           <Row>
             <Col md={12} sm={12} lg={6}>
+            <div id="Br">
               <br /> <br /> <br />
               <br />
               <br />
+              </div>
               <div>welcome to my world</div>
               <h1>
                 Hi, I&#39;m <span id="name">Eswar K</span>
