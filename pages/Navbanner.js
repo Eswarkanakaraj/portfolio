@@ -16,7 +16,7 @@ function Navbanner() {
   return (
     <Navbar
       expand="sm"
-      className="background p-4 border-bottom border-light"
+      className="background p-3 mr-3 border-bottom border-light"
       expanded={expanded}
     >
       <Container className="color">
