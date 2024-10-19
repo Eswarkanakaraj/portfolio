@@ -29,7 +29,7 @@ function Navbanner() {
             alt="logo"
           />
           <Navbar.Brand href="#Home" style={{ color: "rgba(196, 207, 222,0.6)" }}>
-            Eswar K
+            Eswar 
           </Navbar.Brand>
         </div>
         <Navbar.Toggle

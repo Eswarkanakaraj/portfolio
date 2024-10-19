@@ -28,9 +28,9 @@ export default function HomePage() {
           <Row>
             <Col md={12} sm={12} lg={6}>
             <div id="Br">
-              <br /> <br /> <br />
-              <br />
-              <br />
+              <br className="br-home" /> <br className="br-home" /> <br className="br-home" />
+              <br className="br-home" />
+              <br  className="br-home"/>
               </div>
               <div>welcome to my world</div>
               <h1>
