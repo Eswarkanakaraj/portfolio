@@ -60,46 +60,91 @@
     font-size: 20px;
   }
 }
-.flex-2 {
-  display: flex;
-}
 
+
+// @media only screen and (max-width: 767px) {
+//   .my-img {
+//     max-width: 300px !important;
+//     height: auto;
+//     margin-left: 30px !important;
+//   }
+
+//   .border {
+//     width: 350px !important;
+//     height: 250px !important;
+//     margin-left: 5px;
+//   }
+
+
+// }
+
+// @media only screen and (max-width: 1400px) {
+//   .flex-2 {
+//     flex-direction: column;
+//   }
+// }
+// @media only screen and (min-width: 768px) and (max-width: 992px) {
+//   .my-img {
+//     width: 300px !important;
+//     height: auto;
+//     margin-left: 200px;
+//   }
+//   .border {
+//     margin-left: 180px;
+//     width: 350px !important;
+//     height: 250px !important;
+//   }
+// }
+/* Mobile devices (max-width: 767px) */
 @media only screen and (max-width: 767px) {
   .my-img {
-    width: 300px !important;
+    max-width: 300px !important;
     height: auto;
-    margin-left: 30px !important;
+    position: relative; /* Added relative positioning */
+    left: 50%; /* Centers horizontally */
+    transform: translateX(-50%); /* Offsets the image to be perfectly centered */
+    // margin-top: 20px; /* Optional for spacing from top */
   }
 
   .border {
     width: 350px !important;
     height: 250px !important;
-    margin-left: 5px;
+    position: relative; /* Added relative positioning */
+    left: 50%; /* Centers horizontally */
+    transform: translateX(-50%); /* Offsets to be perfectly centered */
+    // margin-top: 20px; /* Optional for spacing from top */
   }
 
+  .flex-2 {
+    flex-direction: column;
+    align-items: center; /* Centers items inside the flex container */
+  }
   #Home {
     margin: 0 !important;
   }
 
-  .flex-2 {
-    flex-direction: column;
-  }
 }
 
-@media only screen and (max-width: 1400px) {
-  .flex-2 {
-    flex-direction: column;
-  }
-}
+/* Screens between 768px and 992px (Tablets and small laptops) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .my-img {
     width: 300px !important;
     height: auto;
-    margin-left: 200px;
+    position: relative;
+    left: 50%; /* Centers horizontally */
+    transform: translateX(-50%); /* Offsets the image to center it */
+    margin-top: 30px;
   }
+
   .border {
-    margin-left: 180px;
     width: 350px !important;
     height: 250px !important;
+    position: relative;
+    left: 50%; /* Centers horizontally */
+    transform: translateX(-50%); /* Offsets to center the border */
+    margin-top: 30px;
   }
+
+
 }
+
