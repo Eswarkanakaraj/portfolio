@@ -111,11 +111,11 @@ export default function HomePage() {
                 <br />
                 <div className="border"></div>
                 <img
-                  className="img-responsive my-img "
+                  className="img-responsive my-img"
                   width={"500"}
                   height={"auto"}
                   src="eswar1.png"
-                  alt="my img"
+                  alt="myimg"
                 />
               </div>
             </Col>
