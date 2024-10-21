@@ -16,7 +16,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 export default function HomePage() {
   const [text] = useTypewriter({
     words: ["Front End Developer.", "React Developer.", "UI Designer."],
-    loop: true,
+    loop:true,
     typeSpeed: 40,
     deleteSpeed: 20,
     delaySpeed: 2000,

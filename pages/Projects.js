@@ -19,7 +19,7 @@ function Project() {
                 <div className="tittle-flex">
                   <Card.Title className="tittle">Calculator</Card.Title>
                   <div className="card-icon  ">
-                    <a href="" target="blank" clas>
+                    <a href="" target="blank" >
                       <div id="circle">
                         <FaGlobe className="icon" />
                       </div>
