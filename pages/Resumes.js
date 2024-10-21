@@ -10,8 +10,8 @@ export default function Resumes() {
     <div>
       <section id="Resume">
         <br/>  <br/><br/><br/>
-        <h1 align="center" >Resume</h1>
-        <br/> <br/>
+        <h1 align="center" id="head-resume"> My Resume</h1>
+        <br/> <br/><br/>
         <Container >
           <Row className="row1">
             <Col className="col1"   >
