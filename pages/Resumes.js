@@ -29,7 +29,7 @@ export default function Resumes() {
         <h1>Education Quality</h1>
         
        
-          <Col lg={9} className="m-5">
+          <Col lg={9} md={12} >
           <div className="edex">
           <h3 >
             Front End Development
@@ -42,10 +42,11 @@ export default function Resumes() {
 
         </div>
         </Col>
+        <br/>
         <h1>Education Quality</h1>
     
        
-          <Col lg={9} className="m-5">
+          <Col lg={9} >
           <div className="edex">
           <h3 >
             Front End Development
@@ -57,11 +58,12 @@ export default function Resumes() {
           <p>I&#39;ve earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
 
         </div>
+        <br/>
         </Col>
         <h1>Education Quality</h1>
     
        
-          <Col lg={9} className="m-5 ">
+          <Col lg={9} >
           <div className="edex">
           <h3 >
             Front End Development
@@ -73,6 +75,7 @@ export default function Resumes() {
           <p>I&#39;ve earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
 
         </div>
+        <br/>
         </Col>
         </div>
       </Tab>
