@@ -14,6 +14,7 @@
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     height: 100%;
    
+   
   .tittle {
     color: red !important;
     font-family: "Times New Roman", Times, serif;
@@ -31,7 +32,9 @@
       align-items: center;
     }
   }
+  
 }
+
 
 #circle {
   display: flex;

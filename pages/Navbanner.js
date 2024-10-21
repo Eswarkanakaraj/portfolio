@@ -4,7 +4,7 @@ import { Link as ScrollLink } from "react-scroll"; // Correct import for react-s
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { color } from "framer-motion";
+
 
 function Navbanner() {
   const [expanded, setExpanded] = useState(false);
