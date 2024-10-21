@@ -38,7 +38,7 @@ export default function Resumes() {
             Edex Tech It solution (05/2024 to 11/2024)
           </p>
           <p id="mark">4.00/5</p>
-          <p>I've earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
+          <p>I&#39;ve earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
 
         </div>
         </Col>
@@ -54,7 +54,7 @@ export default function Resumes() {
             Edex Tech It solution (05/2024 to 11/2024)
           </p>
           <p id="mark">4.00/5</p>
-          <p>I've earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
+          <p>I&#39;ve earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
 
         </div>
         </Col>
@@ -70,7 +70,7 @@ export default function Resumes() {
             Edex Tech It solution (05/2024 to 11/2024)
           </p>
           <p id="mark">4.00/5</p>
-          <p>I've earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
+          <p>I&#39;ve earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
 
         </div>
         </Col>
