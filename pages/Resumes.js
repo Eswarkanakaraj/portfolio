@@ -34,11 +34,11 @@ export default function Resumes() {
           <h3 >
             Front End Development
           </h3>
-          <p>
-            Edex Tech It solution (05/2024 to 11/2024)
+          <p className="opacity-75">
+            Edex Tech It solution (05/2024-11/2024)
           </p>
           <p id="mark">4.00/5</p>
-          <p>I&#39;ve earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
+          <p className="opacity-75">I&#39;ve earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
 
         </div>
         </Col>
@@ -47,13 +47,13 @@ export default function Resumes() {
           <Col lg={9} md={11}>
           <div className="edex">
           <h3 >
-            Front End Development
+           BE in Mechanical 
           </h3>
-          <p>
-            Edex Tech It solution (05/2024 to 11/2024)
+          <p className="opacity-75">
+           Hindusdan College of Engineering and Tech (2019-2023)
           </p>
-          <p id="mark">4.00/5</p>
-          <p>I&#39;ve earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
+          <p id="mark">3.80/5</p>
+          <p className="opacity-75">I&#39;ve completed my Bachelor's degree in Mechanical Engineering with a CGPA of 7.3 and no backlogs.</p>
 
         </div>
         <br/>
@@ -63,13 +63,13 @@ export default function Resumes() {
           <Col lg={9} md={11}>
           <div className="edex">
           <h3 >
-            Front End Development
+         Higher Secondary School Education
           </h3>
-          <p>
-            Edex Tech It solution (05/2024 to 11/2024)
+          <p className="opacity-75">
+           DKG Hr Sec School (2017-2019)
           </p>
-          <p id="mark">4.00/5</p>
-          <p>I&#39;ve earned a front-end development certificate, mastering HTML, CSS, JavaScript, and modern frameworks to build responsive, dynamic web applications.</p>
+          <p id="mark">5.00/5</p>
+          <p className="opacity-75">I completed my secondary education with a specialization in Bio-Maths, equipping me with a strong analytical foundation in both biological sciences and mathematics, essential for my academic pursuits in engineering.</p>
 
         </div>
         <br/>
@@ -79,8 +79,21 @@ export default function Resumes() {
       <Tab eventKey="Skills" title="Skills">
         Tab content for Profile
       </Tab>
-      <Tab eventKey="Resume" title="Resume" className="tab-content">
-        Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab Tab content for Loooonger Tab
+      <Tab eventKey="cv" title="cv" className="tab-content">
+      
+
+    <div className="cv">
+      <div>
+  <a  href="eswar.pdf"  >
+ <button className="btn" >
+  WATCH CV
+ </button>
+  </a>
+  </div>
+
+   </div>
+ 
+ 
       </Tab>
     
     </Tabs>

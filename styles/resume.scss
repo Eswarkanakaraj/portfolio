@@ -11,6 +11,7 @@
   //  margin-right: 100px;
   //  justify-content: space-between !important;
    color: red !important;
+   background-color: #1a1b1c;
 //    gap: 10px;
 }
 
@@ -52,9 +53,62 @@
           background-color: #1a1b1c;
           color: red;
           height: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
 
     }
 }
+/* From Uiverse.io by ShrinilDhorda */ 
+.btn {
+  font-size: 2rem !important;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+ font-family: Georgia, 'Times New Roman', Times, serif !important;
+  background-color: rgb(36, 36, 37) !important;
+  color: rgb(234, 234, 234) !important;
+  font-weight: 700;
+  transition: 0.6s;
+  // box-shadow: 0px 0px 60px #1f4c65;
+  --tw-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #2e2e2f;
+  --tw-shadow-colored: 10px 10px 19px var(--tw-shadow-color),
+    -10px -10px 19px var(--tw-shadow-color);
+  box-shadow: 0 0 #00000000, 0 0 #0000, var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  transition: transform 0.2s ease-in-out;
+    transform: translateY(-5px);
+  
+
+  
+}
+.cv{
+  
+  display: flex;
+
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.btn:active {
+  scale: 0.92;
+}
+
+.btn:hover {
+  background: rgb(2,29,78) ;
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: rgb(4, 4, 38) !important;
+ 
+}
+/* From Uiverse.io by terenceodonoghue */ 
+
+
 
 
 
