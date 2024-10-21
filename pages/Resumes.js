@@ -16,7 +16,7 @@ export default function Resumes() {
           <Row className="row1">
             <Col className="col1"   >
             <Tabs 
-      defaultActiveKey="home"
+      defaultActiveKey="Educations"
       id="fill-tab-example"
       className="mb-3 tabs"
       fill
