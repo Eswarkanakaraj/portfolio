@@ -13,6 +13,7 @@ export default function Resumes() {
         label={`${label}%`}
         className="custom-progress"
         animated
+        isChild
       >
         <div
           className="progress-bar custom-progress-bar"
@@ -33,7 +34,7 @@ export default function Resumes() {
         <br />
         <br />
         <h1 align="center" id="head-resume">
-          {" "}
+          
           My Resume
         </h1>
         <br /> <br />
