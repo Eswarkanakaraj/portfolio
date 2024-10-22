@@ -13,7 +13,8 @@ export default function Resumes() {
         label={`${label}%`}
         className="custom-progress"
         animated
-        isChild
+        
+       
       >
         <div
           className="progress-bar custom-progress-bar"
