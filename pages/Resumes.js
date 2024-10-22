@@ -79,7 +79,7 @@ export default function Resumes() {
                         </p>
                         <p id="mark">3.80/5</p>
                         <p className="opacity-75">
-                          I&#39;ve completed my Bachelor's degree in Mechanical
+                          I&#39;ve completed my Bachelor&#39;s degree in Mechanical
                           Engineering with a CGPA of 7.3 and no backlogs.
                         </p>
                       </div>
