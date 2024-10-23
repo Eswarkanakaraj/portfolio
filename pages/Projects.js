@@ -9,7 +9,7 @@ function Project() {
       <section id="projects">
         <br /> <br /> <br />
         <br />
-        <h1 id="head">My Projects</h1>
+        <h1 id="head" align="center">My Projects</h1>
         <br />
         <Row className="g-5 m-2 ">
           <Col sm={12} md={6} lg={4}>
