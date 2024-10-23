@@ -52,7 +52,7 @@ export default function Resumes() {
                 <Tab eventKey="Educations" title="Educations">
                   <div>
                     <br />
-                    <h1>Education Quality</h1>
+                    <h2>Education Quality</h2>
 
                     <br />
                     <Col lg={9} md={11}>
@@ -111,23 +111,23 @@ export default function Resumes() {
                   <br />
                   <Row>
                   <Col md={12} lg={6}>
-                    <h1> Development Skills</h1>
+                    <h2> Development Skills</h2>
                     <br />
                     <br />
                     <div className="dev-skills">
-                    <h5 className="skill-name">React js</h5>
+                    <div className="skill-name">React js</div>
                     <WithLabelExample now={75} label={75} />
                     
-                    <h5 className="skill-name">HTML 5</h5>
+                    <div className="skill-name">HTML 5</div>
                     <WithLabelExample now={95} label={95} />
-                    <h5 className="skill-name">CSS 3</h5>
+                    <div className="skill-name">CSS 3</div>
                     <WithLabelExample now={85} label={85} />
-                    <h5 className="skill-name">Java Script</h5>
+                    <div className="skill-name">Java Script</div>
                     <WithLabelExample now={70} label={70} />
-                    <h5 className="skill-name">Next js</h5>
+                    <div className="skill-name">Next js</div>
 
                     <WithLabelExample now={75} label={75} />
-                    <h5 className="skill-name">React bootstrap</h5>
+                    <div className="skill-name">React bootstrap</div>
 
 <WithLabelExample now={80} label={80} />
                     </div>
@@ -136,18 +136,18 @@ export default function Resumes() {
                 <br/> <br/>
                   </Col>
                   <Col md={12} lg={6}>
-                    <h1 > Other Skills</h1>
+                    <h2 > Other Skills</h2>
                     <br />
                     <br />
                     <div className="dev-skills">
-                    <h5 className="skill-name">Photoshop</h5>
+                    <div className="skill-name">Photoshop</div>
                     <WithLabelExample now={60} label={60} />
-                    <h5 className="skill-name">Git & Github</h5>
+                    <div className="skill-name">Git & Github</div>
 
                     <WithLabelExample now={70} label={70} />
-                    <h5 className="skill-name">MS Office</h5>
+                    <div className="skill-name">MS Office</div>
                     <WithLabelExample now={75} label={75} />
-                    <h5 className="skill-name">problem solving</h5>
+                    <div className="skill-name">problem solving</div>
                     <WithLabelExample now={95} label={95} />
                   
                     </div>

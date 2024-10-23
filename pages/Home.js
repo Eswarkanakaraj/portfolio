@@ -32,8 +32,8 @@ export default function HomePage() {
               <br className="br-home" />
               <br  className="br-home"/>
               </div>
-              <div>welcome to my world</div>
-              <h1>
+              <div>WELCOME TO MY WORLD</div>
+              <h1 className="text-decoration-none">
                 Hi, I&#39;m <span id="name">Eswar K</span>
               </h1>
               <h2 className="text-4xl font-bold text-white">
@@ -45,7 +45,7 @@ export default function HomePage() {
                 />
               </h2>
               <div>
-                an As a motivated front-end developer, I am eager to build
+                An as a motivated front-end developer, I am eager to build
                 engaging and responsive websites. With a solid foundation in
                 HTML, CSS, JavaScript, and React, I focus on turning designs
                 into smooth, interactive user experiences.
@@ -60,22 +60,22 @@ export default function HomePage() {
                     <div className="d-flex all-icons">
                       <a href="" target="blank">
                         <div className="bannerIcon  ">
-                          <FaTwitter className="icon" />
+                          <FaGithub className="icon" />
                         </div>
                       </a>
                       <a href="https://github.com/dashboard" target="blank">
                         <div className="bannerIcon">
-                          <FaGithub className="icon" />
+                          <FaLinkedinIn className="icon" />
+                        </div>
+                      </a>
+                      <a href="" target="blank">
+                        <div className="bannerIcon">
+                          <FaTwitter className="icon" />
                         </div>
                       </a>
                       <a href="" target="blank">
                         <div className="bannerIcon">
                           <FaInstagram className="icon" />
-                        </div>
-                      </a>
-                      <a href="" target="blank">
-                        <div className="bannerIcon">
-                          <FaLinkedinIn className="icon" />
                         </div>
                       </a>
                     </div>
@@ -86,11 +86,11 @@ export default function HomePage() {
                   <Col md={12}>
                     <div className="d-flex all-icons">
                       <div className="bannerIcon">
-                        <SiAdobephotoshop className="icon" />
+                        <FaReact className="icon" />
                       </div>
 
                       <div className="bannerIcon">
-                        <FaReact className="icon" />
+                        <SiHtml5 className="icon" />
                       </div>
 
                       <div className="bannerIcon">
@@ -98,7 +98,7 @@ export default function HomePage() {
                       </div>
 
                       <div className="bannerIcon">
-                        <SiHtml5 className="icon" />
+                        <SiAdobephotoshop className="icon" />
                       </div>
                     </div>
                   </Col>
