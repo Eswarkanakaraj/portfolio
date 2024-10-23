@@ -1,0 +1,53 @@
+#contact-name{
+    color: white !important;
+}
+.inputs{
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+    color: inherit;
+ 
+    
+}
+input,textarea,button{
+  
+   border:none;
+    width: 100% !important;
+    background-color: rgba(24, 24, 31,0.7);
+   box-shadow: 0px 1px 1px rgb(79, 73, 73) ;
+    border-radius: 15px ;
+    height: 50px;
+    text-indent: 30px;
+    font-size: large;
+    
+    
+    
+}
+button :hover{
+border: 1px soloid red;}
+input{
+    border-right: none ;
+}
+input:focus,textarea:focus{
+    outline: none !important;
+    border: 1px solid red;
+}
+button{
+    border: none;
+}
+button:hover{
+    border: 1px solid red;
+}
+textarea{
+    border-right: none;
+    border-left: none;
+    border-top:none;
+    height: 190px !important;
+    
+}
+label{
+    text-transform: uppercase;
+}
+.error{
+    color: red;
+}

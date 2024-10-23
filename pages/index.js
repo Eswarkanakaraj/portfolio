@@ -3,6 +3,7 @@ import Navbanner from "./Navbanner"
 import Home from "./Home"
 import Projects from "./Projects"
 import Resumes from "./Resumes"
+import Contact from "./Contact"
 
 
 export default function index() {
@@ -12,6 +13,7 @@ export default function index() {
     <Home/>
     <Projects/>
     <Resumes/>
+    <Contact/>
    
     </>
   )

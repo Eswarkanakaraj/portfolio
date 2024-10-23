@@ -162,6 +162,7 @@ export default function Resumes() {
                       </a>
                     </div>
                   </div>
+                    <br/> <br/> <br/>
                 </Tab>
               </Tabs>
             </Col>

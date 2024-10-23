@@ -79,7 +79,7 @@ function Navbanner() {
             <ScrollLink id="hov"
               to="Contact"
              
-              offset={0}
+              offset={-100}
               duration={50}
               style={{ color: "rgba(196, 207, 222,0.6)" }}
               className="nav-link"
