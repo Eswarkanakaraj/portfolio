@@ -19,6 +19,9 @@ h1{
   font-weight: 700;
   font-style: normal;
   text-decoration: none !important;
+  letter-spacing: none !important;
+  word-spacing: none !important;
+  text-align: center;
 }
 
 div{
