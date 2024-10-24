@@ -68,7 +68,7 @@ export default function Contact() {
   
   const successsMsg=()=>{
   return(
-  <div>Thank You,Your Message has been sent Success</div>
+  <div className='success-msg' >Thank You,Your Message has been sent Successfully</div>
   )
   }
   const handleSubmit = (e) => {
@@ -91,7 +91,7 @@ export default function Contact() {
       // Optionally hide the success message after a few seconds
       setTimeout(() => {
         setShowSuccess(false);
-      }, 3000); 
+      }, 10000); 
     }
   };
 
@@ -245,7 +245,7 @@ const sendEmail = (e) => {
                         <button className="glow-on-hover" type="submit">
                          SEND MESSAGE
                         </button>
-                        <div className='bg-danger'>{showSuccess && successsMsg()}</div>
+                        <div>{showSuccess && successsMsg()}</div>
                       </div>
                     </form>
                   </Card.Text>
@@ -254,6 +254,7 @@ const sendEmail = (e) => {
             </Col>
           </Row>
         </section>
+        <br/>   <br/>   <br/>
       </Container>
     </div>
   );

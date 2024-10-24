@@ -5,12 +5,12 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   FaInstagram,
-  FaTwitter,
   FaLinkedinIn,
+  FaTwitter,
   FaReact,
   FaGithub,
 } from "react-icons/fa";
-import { SiHtml5, SiAdobephotoshop, SiNextdotjs } from "react-icons/si";
+import { SiHtml5, SiAdobephotoshop, SiNextdotjs,  } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export default function HomePage() {
