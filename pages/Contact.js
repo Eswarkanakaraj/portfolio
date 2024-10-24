@@ -11,12 +11,14 @@ import {
   FaLinkedinIn,
   FaGithub,
 } from "react-icons/fa";
+import emailjs from 'emailjs-com';
+
 
 export default function Contact() {
   const [formData, setFormData] = useState({
    Name: "",
     
-    email: "",
+    Email: "",
     Mobile: "",
     Message: "",
    
@@ -26,7 +28,7 @@ export default function Contact() {
   const [errors, setErrors] = useState({
    Name: "",
     
-    email: "",
+    Email: "",
     Mobile: "",
     Message: "",
     
@@ -47,10 +49,10 @@ export default function Contact() {
     const newErrors = {};
     if (!formData.Name) newErrors.Name = " Name is required";
     
-    if (!formData.email) {
-      newErrors.email = "Email is required";
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      newErrors.email = "Email is invalid";
+    if (!formData.Email) {
+      newErrors.Email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(formData.Email)) {
+      newErrors.Email = "Email is invalid";
     }
     if (!formData.Mobile) {
       newErrors.Mobile = "Mobile Number is required";
@@ -76,13 +78,15 @@ export default function Contact() {
       setFormData({
        Name: "",
         
-        email: "",
+        Email: "",
        Mobile: "",
        Message: "",
 
        
       });
       setShowSuccess(true);
+      sendEmail();
+
       
       // Optionally hide the success message after a few seconds
       setTimeout(() => {
@@ -93,7 +97,53 @@ export default function Contact() {
 
   // Only render after the component is mounted
   if (!mounted) return null;
+//
+ 
 
+const sendEmail = (e) => {
+
+
+  // 1. Send "Thank You" email to the user
+  const userParams = {
+    Name: formData.Name,
+    Email: formData.Email,
+ Mobile: formData.Mobile,
+  };
+
+  emailjs
+    .send(
+      'service_aaxtxqh',    // YOUR_SERVICE_ID
+      'template_mnwxqmf',      // template_id
+      userParams,           // Pass the user details as parameters
+      'V8tt5rTSn4Clyafdc'        // public key
+    )
+    .then((response) => {
+      console.log('Thank You email sent successfully to the user!', response.status, response.text);
+    })
+    .catch((err) => console.error('Failed to send Thank You email to the user:', err));
+
+  // 2. Send admin email with user details
+  const adminParams = {
+    Name: formData.Name,
+    Email: formData.Email,
+    Mobile: formData.Mobile,
+    Message:formData.Message
+    // admin_email: 'gowthamak812@gmail.com',  // You can add admin's email here if required
+  };
+
+  emailjs
+    .send(
+      'service_aaxtxqh',   // YOUR_SERVICE_ID
+      'template_qowi49d',     // template_id
+      adminParams,          // Pass the user details as parameters
+      'V8tt5rTSn4Clyafdc'        // public key
+    )
+    .then((response) => {
+      console.log('Admin email sent successfully!', response.status, response.text);
+    })
+    .catch((err) => console.error('Failed to send admin email:', err));
+  }
+ 
 
   return (
     <div>
@@ -160,15 +210,15 @@ export default function Contact() {
 
                        
 
-                        <label htmlFor="email">EMAIL</label>
+                        <label htmlFor="Email">Email</label>
                         <input
-                          type="email"
+                          type="Email"
                          autoComplete='off'
-                          id="email"
-                          value={formData.email}
+                          id="Email"
+                          value={formData.Email}
                           onChange={handleChange}
                         />
-                        {errors.email && <p className="error">{errors.email}</p>}
+                        {errors.Email && <p className="error">{errors.Email}</p>}
 
                         <label htmlFor="Mobile">Mobile Number</label>
                         <input
