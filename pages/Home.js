@@ -58,7 +58,7 @@ export default function HomePage() {
 
                   <Col md={12}>
                     <div className="d-flex all-icons">
-                      <a href="" target="blank">
+                      <a href="https://github.com/Eswarkanakaraj" target="blank">
                         <div className="bannerIcon  ">
                           <FaGithub className="icon" />
                         </div>

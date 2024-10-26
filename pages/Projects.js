@@ -19,12 +19,12 @@ function Project() {
                 <div className="tittle-flex">
                   <Card.Title className="tittle">Calculator</Card.Title>
                   <div className="card-icon  ">
-                    <a href="" target="blank" >
+                    <a href="https://eswar-calculator.netlify.app" target="blank" >
                       <div id="circle">
                         <FaGlobe className="icon" />
                       </div>
                     </a>
-                    <a href="" target="blank">
+                    <a href="https://github.com/Eswarkanakaraj/Calc.git" target="blank">
                       <div id="circle">
                         <FaGithub className="icon" />
                       </div>
@@ -46,12 +46,12 @@ function Project() {
                 <div className="tittle-flex">
                   <Card.Title className="tittle">Weather-app</Card.Title>
                   <div className="card-icon  ">
-                    <a href="" target="blank">
+                    <a href="https://weather-apk1.netlify.app" target="blank">
                       <div id="circle">
                         <FaGlobe className="icon" />
                       </div>
                     </a>
-                    <a href="" target="blank">
+                    <a href="https://github.com/Eswarkanakaraj/Weather-app.git" target="blank">
                       <div id="circle">
                         <FaGithub className="icon" />
                       </div>
@@ -73,12 +73,12 @@ function Project() {
                 <div className="tittle-flex">
                   <Card.Title className="tittle">To-Do app</Card.Title>
                   <div className="card-icon  ">
-                    <a href="" target="blank">
+                    <a href="https://eswar-todo.netlify.app" target="blank">
                       <div id="circle">
                         <FaGlobe className="icon" />
                       </div>
                     </a>
-                    <a href="" target="blank">
+                    <a href="https://github.com/Eswarkanakaraj/ToDo.git" target="blank">
                       <div id="circle">
                         <FaGithub className="icon" />
                       </div>
@@ -100,12 +100,12 @@ function Project() {
                 <div className="tittle-flex">
                   <Card.Title className="tittle">Signin Form</Card.Title>
                   <div className="card-icon  ">
-                    <a href="" target="blank">
+                    <a href="https://eswar-form.netlify.app" target="blank">
                       <div id="circle">
                         <FaGlobe className="icon" />
                       </div>
                     </a>
-                    <a href="" target="blank">
+                    <a href="https://github.com/Eswarkanakaraj/Form.git" target="blank">
                       <div id="circle">
                         <FaGithub className="icon" />
                       </div>
