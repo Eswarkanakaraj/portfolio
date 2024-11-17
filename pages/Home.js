@@ -63,7 +63,7 @@ export default function HomePage() {
                           <FaGithub className="icon" />
                         </div>
                       </a>
-                      <a href="https://github.com/dashboard" target="blank">
+                      <a href="#" target="blank">
                         <div className="bannerIcon">
                           <FaLinkedinIn className="icon" />
                         </div>
