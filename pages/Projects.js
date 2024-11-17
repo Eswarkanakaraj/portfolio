@@ -153,12 +153,12 @@ A responsive form project using React, EmailJS for seamless submissions, and rob
                 <div className="tittle-flex">
                   <Card.Title className="tittle">Triple-Choco</Card.Title>
                   <div className="card-icon  ">
-                    <a href="" target="blank">
+                    <a href="https://triplechoco.netlify.app" target="blank">
                       <div id="circle">
                         <FaGlobe className="icon" />
                       </div>
                     </a>
-                    <a href="" target="blank">
+                    <a href="https://github.com/Eswarkanakaraj/Triple-choco.git" target="blank">
                       <div id="circle">
                         <FaGithub className="icon" />
                       </div>

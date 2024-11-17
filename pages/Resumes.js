@@ -157,7 +157,7 @@ export default function Resumes() {
                 <Tab eventKey="cv" title="cv" className="tab-content">
                   <div className="cv">
                     <div>
-                      <a href="eswarkanakaraj resume.pdf">
+                      <a href="ESWARK RESUME.pdf">
                         <button className="btn">WATCH CV</button>
                       </a>
                     </div>
