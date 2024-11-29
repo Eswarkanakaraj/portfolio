@@ -63,7 +63,7 @@ export default function HomePage() {
                           <FaGithub className="icon" />
                         </div>
                       </a>
-                      <a href="#" target="blank">
+                      <a href="https://www.linkedin.com/in/eswarkanakaraj/" target="blank">
                         <div className="bannerIcon">
                           <FaLinkedinIn className="icon" />
                         </div>
@@ -73,7 +73,7 @@ export default function HomePage() {
                           <FaTwitter className="icon" />
                         </div>
                       </a>
-                      <a href="" target="blank">
+                      <a href="https://www.instagram.com/eswar._02?igsh=bHlzc2Z4Mms4eXZ2" target="blank">
                         <div className="bannerIcon">
                           <FaInstagram className="icon" />
                         </div>
