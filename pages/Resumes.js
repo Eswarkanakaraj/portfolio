@@ -1,11 +1,16 @@
-import React from "react";
+import {React} from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
+
 import { Tabs, Tab } from "react-bootstrap";
 export default function Resumes() {
+
+
+
+  
   function WithLabelExample({ now, label }) {
     return (
       <ProgressBar

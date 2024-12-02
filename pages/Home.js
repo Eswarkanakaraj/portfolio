@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import React from "react";
+import {React,  useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   FaInstagram,
@@ -21,6 +21,7 @@ export default function HomePage() {
     deleteSpeed: 20,
     delaySpeed: 2000,
   });
+
   return (
     <div className="Main">
       <section id="Home">
@@ -57,7 +58,7 @@ export default function HomePage() {
                   <Col md={12}>FIND ME IN</Col>
 
                   <Col md={12}>
-                    <div className="d-flex all-icons">
+                    <div className="d-flex all-icons" >
                       <a href="https://github.com/Eswarkanakaraj" target="blank">
                         <div className="bannerIcon  ">
                           <FaGithub className="icon" />
@@ -107,10 +108,10 @@ export default function HomePage() {
             </Col>
 
             <Col md={12} sm={10} lg={6}>
-              <div id="con1">
+              <div id="con1" >
                 <br />
                 <div className="border"></div>
-                <img
+                <img data-aos=" slide-right" 
                   className="img-responsive my-img"
                   width={"500"}
                   height={"auto"}

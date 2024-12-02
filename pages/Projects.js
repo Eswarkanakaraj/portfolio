@@ -1,9 +1,13 @@
+import React from "react";
+
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { FaGithub, FaGlobe } from "react-icons/fa";
 
+
 function Project() {
+ 
   return (
     <div>
       <section id="projects">
@@ -12,8 +16,8 @@ function Project() {
         <h1 id="head" align="center">My Projects</h1>
         <br />
         <Row className="g-5 m-2 ">
-          <Col sm={12} md={6} lg={4}>
-            <Card className="card1">
+          <Col sm={12} md={6} lg={4} >
+            <Card className="card1" >
               <Card.Img src="calculator.png" height={"auto"} className="project-img" />
               <Card.Body>
                 <div className="tittle-flex">
