@@ -34,8 +34,8 @@ function Navbanner() {
         </div>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
-          className="cursor-pointer bg-light"
-          id="toggle"
+          className="cursor-pointer  toggle" 
+          
           onClick={() => setExpanded(!expanded)}
         />
         <Navbar.Collapse id="basic-navbar-nav">

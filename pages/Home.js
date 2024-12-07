@@ -13,6 +13,7 @@ import {
 import { SiHtml5, SiAdobephotoshop, SiNextdotjs,  } from "react-icons/si";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
+
 export default function HomePage() {
   const [text] = useTypewriter({
     words: ["Front End Developer.", "React Developer.", "UI Designer."],
@@ -21,8 +22,8 @@ export default function HomePage() {
     deleteSpeed: 20,
     delaySpeed: 2000,
   });
-
-  return (
+ 
+    return (
     <div className="Main">
       <section id="Home">
         <Container>
@@ -107,11 +108,11 @@ export default function HomePage() {
               </div>
             </Col>
 
-            <Col md={12} sm={10} lg={6}>
+            <Col md={12} sm={10} lg={6}  >
               <div id="con1" >
                 <br />
                 <div className="border"></div>
-                <img data-aos=" slide-right" 
+                <img      
                   className="img-responsive my-img"
                   width={"500"}
                   height={"auto"}

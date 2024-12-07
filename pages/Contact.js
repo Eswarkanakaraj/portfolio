@@ -12,7 +12,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import emailjs from 'emailjs-com';
-
+import Aos from 'aos';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -36,8 +36,15 @@ export default function Contact() {
 
   const [mounted, setMounted] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
+  useEffect(()=>{
+    Aos.init({
+      duration:1500
+     
+    })
+  },[]);
   useEffect(() => {
-    setMounted(true); // Ensures the component is mounted before rendering dynamic content
+    setMounted(true); 
+    // Ensures the component is mounted before rendering dynamic content
   }, []);
 
   const handleChange = (e) => {
@@ -153,7 +160,7 @@ const sendEmail = (e) => {
           <h1 align="center">Contact With Me</h1>
           <br /><br /><br />
           <Row>
-            <Col md={12} lg={4}>
+            <Col md={12} lg={4} data-aos="fade-right">
               <Card>
                 <Card.Img variant="top" src="/contact.jpg" height="auto" className='p-4' />
                 <Card.Body>
@@ -191,7 +198,7 @@ const sendEmail = (e) => {
               </Card>
               <br /><br />
             </Col>
-            <Col md={12} lg={8}>
+            <Col md={12} lg={8} data-aos="fade-left">
               <Card>
                 <Card.Body>
                   <Card.Text>

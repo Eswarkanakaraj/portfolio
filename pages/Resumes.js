@@ -1,16 +1,18 @@
-import {React} from "react";
+import React from "react";
+import { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
-
 import { Tabs, Tab } from "react-bootstrap";
+import Aos from "aos";
 export default function Resumes() {
-
-
-
-  
+  useEffect(() => {
+    Aos.init({
+      duration:1500, // Animation duration in milliseconds
+    });
+  }, []);
   function WithLabelExample({ now, label }) {
     return (
       <ProgressBar
@@ -18,16 +20,12 @@ export default function Resumes() {
         label={`${label}%`}
         className="custom-progress"
         animated
-        
-       
       >
         <div
           className="progress-bar custom-progress-bar"
           style={{ width: `${now}%` }}
         >
-          <div className="label">
-          {label}%
-          </div>
+          <div className="label">{label}%</div>
         </div>
       </ProgressBar>
     );
@@ -40,7 +38,6 @@ export default function Resumes() {
         <br />
         <br />
         <h1 align="center" id="head-resume">
-          
           My Resume
         </h1>
         <br /> <br />
@@ -60,7 +57,8 @@ export default function Resumes() {
                     <h2>Education Quality</h2>
 
                     <br />
-                    <Col lg={9} md={11}>
+                    <Col lg={9} md={11} data-aos="slide-right" 
+                   data-aos-delay="200">
                       <div className="edex">
                         <h3>Front End Development</h3>
                         <p className="opacity-75">
@@ -76,7 +74,8 @@ export default function Resumes() {
                     </Col>
                     <br />
                     <br />
-                    <Col lg={9} md={11}>
+                    <Col lg={9} md={11} data-aos="slide-right" 
+                   data-aos-delay="200">
                       <div className="edex">
                         <h3>BE in Mechanical</h3>
                         <p className="opacity-75">
@@ -84,15 +83,17 @@ export default function Resumes() {
                         </p>
                         <p id="mark">3.80/5</p>
                         <p className="opacity-75">
-                          I&#39;ve completed my Bachelor&#39;s degree in Mechanical
-                          Engineering with a CGPA of 7.3 and no backlogs.
+                          I&#39;ve completed my Bachelor&#39;s degree in
+                          Mechanical Engineering with a CGPA of 7.3 and no
+                          backlogs.
                         </p>
                       </div>
                       <br />
                     </Col>
                     <br />
 
-                    <Col lg={9} md={11}>
+                    <Col lg={9} md={11} data-aos="slide-right" 
+                   data-aos-delay="200">
                       <div className="edex">
                         <h3>Higher Secondary School Education</h3>
                         <p className="opacity-75">
@@ -115,48 +116,45 @@ export default function Resumes() {
                   <br />
                   <br />
                   <Row>
-                  <Col md={12} lg={6}>
-                    <h2> Development Skills</h2>
-                    <br />
-                    <br />
-                    <div className="dev-skills">
-                    <div className="skill-name">React js</div>
-                    <WithLabelExample now={75} label={75} />
-                    
-                    <div className="skill-name">HTML 5</div>
-                    <WithLabelExample now={95} label={95} />
-                    <div className="skill-name">CSS 3</div>
-                    <WithLabelExample now={85} label={85} />
-                    <div className="skill-name">Java Script</div>
-                    <WithLabelExample now={70} label={70} />
-                    <div className="skill-name">Next js</div>
+                    <Col md={12} lg={6}data-aos="zoom-in" >
+                      <h2> Development Skills</h2>
+                      <br />
+                      <br />
+                      <div className="dev-skills">
+                        <div className="skill-name">React js</div>
+                        <WithLabelExample now={75} label={75} />
 
-                    <WithLabelExample now={75} label={75} />
-                    <div className="skill-name">React bootstrap</div>
+                        <div className="skill-name">HTML 5</div>
+                        <WithLabelExample now={95} label={95} />
+                        <div className="skill-name">CSS 3</div>
+                        <WithLabelExample now={85} label={85} />
+                        <div className="skill-name">Java Script</div>
+                        <WithLabelExample now={70} label={70} />
+                        <div className="skill-name">Next js</div>
 
-<WithLabelExample now={80} label={80} />
-                    </div>
-                    
-                  
-                <br/> <br/>
-                  </Col>
-                  <Col md={12} lg={6}>
-                    <h2 > Other Skills</h2>
-                    <br />
-                    <br />
-                    <div className="dev-skills">
-                    <div className="skill-name">Photoshop</div>
-                    <WithLabelExample now={60} label={60} />
-                    <div className="skill-name">Git & Github</div>
+                        <WithLabelExample now={75} label={75} />
+                        <div className="skill-name">React bootstrap</div>
 
-                    <WithLabelExample now={70} label={70} />
-                    <div className="skill-name">MS Office</div>
-                    <WithLabelExample now={75} label={75} />
-                    <div className="skill-name">problem solving</div>
-                    <WithLabelExample now={95} label={95} />
-                  
-                    </div>
-                  </Col>
+                        <WithLabelExample now={80} label={80} />
+                      </div>
+                      <br /> <br />
+                    </Col>
+                    <Col md={12} lg={6} data-aos="zoom-in" >
+                      <h2> Other Skills</h2>
+                      <br />
+                      <br />
+                      <div className="dev-skills">
+                        <div className="skill-name">Photoshop</div>
+                        <WithLabelExample now={60} label={60} />
+                        <div className="skill-name">Git & Github</div>
+
+                        <WithLabelExample now={70} label={70} />
+                        <div className="skill-name">MS Office</div>
+                        <WithLabelExample now={75} label={75} />
+                        <div className="skill-name">problem solving</div>
+                        <WithLabelExample now={95} label={95} />
+                      </div>
+                    </Col>
                   </Row>
                 </Tab>
                 <Tab eventKey="cv" title="cv" className="tab-content">
@@ -167,7 +165,7 @@ export default function Resumes() {
                       </a>
                     </div>
                   </div>
-                    <br/> <br/> <br/>
+                  <br /> <br /> <br />
                 </Tab>
               </Tabs>
             </Col>

@@ -5,19 +5,8 @@
   top: 0;
   z-index: 100 !important;
   cursor: pointer;
+  
 
-  #toggle {
-    border-radius: 15px;
-    width: 50px;
-    height: 50px;
-    margin: 0px;
-    border: none;
-    // border: none;
-  }
-  #toggle.active{
-    outline: none !important;
-    border: none !important;
-  }
   #flex1 {
     gap: 20px;
    justify-content: flex-start;
@@ -40,14 +29,45 @@ color: red !important;
     // margin-left: 0;
   }
 }
+.toggle:not(.collapsed) {
+  border: none !important;
+  background-color: transparent !important;
   
-#toggle {
+}
+.toggle:not(.collapsed) .navbar-toggler-icon {
+  background-image: url('../public/cross.png');
+   /* Replace with the cross icon */
+   width: 20px;
+
+}
+.toggle:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.toggle .navbar-toggler-icon {
+  background-image: url('../public/menu.png'); /* Replace with your custom icon */
+  background-color: transparent; /* Removes the background color */
+  width: 30px;
+  height: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 0px;
+  transition: transform 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+
+
+}
+
+.toggle {
+  box-shadow: none !important;
+  border: none !important;
   width: 50px !important;
   height: auto !important;
+}
+.toggle:not(.collapsed)  .navbar-toggler-icon:hover{
+  transform: rotate(180deg) scale(1.2); /* Rotate and slightly scale up */
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.3)); /* Add a soft shadow */
+  opacity: 0.8;
 }
 
 @media only screen and (min-width: 576px) {
