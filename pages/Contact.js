@@ -160,7 +160,7 @@ const sendEmail = (e) => {
           <h1 align="center">Contact With Me</h1>
           <br /><br /><br />
           <Row>
-            <Col md={12} lg={4} >
+            <Col md={12} lg={4} data-aos="zoom-in">
               <Card>
                 <Card.Img variant="top" src="/contact.jpg" height="auto" className='p-4' />
                 <Card.Body>
@@ -198,7 +198,7 @@ const sendEmail = (e) => {
               </Card>
               <br /><br />
             </Col>
-            <Col md={12} lg={8} >
+            <Col md={12} lg={8} data-aos="zoom-in">
               <Card>
                 <Card.Body>
                   <Card.Text>

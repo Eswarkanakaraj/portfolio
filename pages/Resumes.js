@@ -10,7 +10,8 @@ import Aos from "aos";
 export default function Resumes() {
   useEffect(() => {
     Aos.init({
-      duration:1500, // Animation duration in milliseconds
+      duration:1500,
+    // Animation duration in milliseconds
     });
   }, []);
   function WithLabelExample({ now, label }) {
@@ -46,7 +47,7 @@ export default function Resumes() {
           <Row className="row1">
             <Col className="col1">
               <Tabs
-                defaultActiveKey="Educations"
+                defaultActiveKey="Skills"
                 id="fill-tab-example"
                 className="mb-3 tabs"
                 fill
@@ -116,7 +117,7 @@ export default function Resumes() {
                   <br />
                   <br />
                   <Row>
-                    <Col md={12} lg={6} >
+                    <Col md={12} lg={6} data-aos="fade-up-right" >
                       <h2> Development Skills</h2>
                       <br />
                       <br />
@@ -139,7 +140,7 @@ export default function Resumes() {
                       </div>
                       <br /> <br />
                     </Col>
-                    <Col md={12} lg={6}  >
+                    <Col md={12} lg={6} data-aos="fade-up-right" >
                       <h2> Other Skills</h2>
                       <br />
                       <br />

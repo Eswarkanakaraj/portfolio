@@ -21,7 +21,7 @@ function Project() {
         <h1 id="head" align="center">My Projects</h1>
         <br />
         <Row className="g-5 m-2 ">
-          <Col sm={12} md={6} lg={4} data-aos="fade-up" >
+          <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1" >
               <Card.Img src="calculator.png" height={"auto"} className="project-img" />
               <Card.Body>
@@ -48,7 +48,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={12} md={6} lg={4} data-aos="fade-up" >
+          <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1">
               <Card.Img src="weather.png" height={"auto"} className="project-img" />
               <Card.Body>
@@ -75,7 +75,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={12} md={6} lg={4} data-aos="fade-up" >
+          <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1">
               <Card.Img src="todo.png" height={"auto"} className="project-img"/>
               <Card.Body>
@@ -102,7 +102,7 @@ function Project() {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={12} md={6} lg={4} data-aos="fade-up" >
+          <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1">
               <Card.Img src="form.png" height={"auto"} className="project-img"/>
               <Card.Body>
@@ -128,7 +128,7 @@ A responsive form project using React, EmailJS for seamless submissions, and rob
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={12} md={6} lg={4} data-aos="fade-up" >
+          <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1">
               <Card.Img src="Maths.png" height={"auto"} className="project-img"/>
               <Card.Body>
@@ -155,7 +155,7 @@ A responsive form project using React, EmailJS for seamless submissions, and rob
               </Card.Body>
             </Card>
           </Col>
-          <Col sm={12} md={6} lg={4} data-aos="fade-up" >
+          <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1">
               <Card.Img src="triplechoco.png" height={"auto"} className="project-img"/>
               <Card.Body>
