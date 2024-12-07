@@ -57,7 +57,7 @@ export default function Resumes() {
                     <h2>Education Quality</h2>
 
                     <br />
-                    <Col lg={9} md={11} data-aos="slide-right" 
+                    <Col lg={9} md={11} 
                    data-aos-delay="200">
                       <div className="edex">
                         <h3>Front End Development</h3>
@@ -74,7 +74,7 @@ export default function Resumes() {
                     </Col>
                     <br />
                     <br />
-                    <Col lg={9} md={11} data-aos="slide-right" 
+                    <Col lg={9} md={11} 
                    data-aos-delay="200">
                       <div className="edex">
                         <h3>BE in Mechanical</h3>
@@ -92,7 +92,7 @@ export default function Resumes() {
                     </Col>
                     <br />
 
-                    <Col lg={9} md={11} data-aos="slide-right" 
+                    <Col lg={9} md={11} 
                    data-aos-delay="200">
                       <div className="edex">
                         <h3>Higher Secondary School Education</h3>
@@ -116,7 +116,7 @@ export default function Resumes() {
                   <br />
                   <br />
                   <Row>
-                    <Col md={12} lg={6}data-aos="zoom-in" >
+                    <Col md={12} lg={6} >
                       <h2> Development Skills</h2>
                       <br />
                       <br />
@@ -139,7 +139,7 @@ export default function Resumes() {
                       </div>
                       <br /> <br />
                     </Col>
-                    <Col md={12} lg={6} data-aos="zoom-in" >
+                    <Col md={12} lg={6}  >
                       <h2> Other Skills</h2>
                       <br />
                       <br />
