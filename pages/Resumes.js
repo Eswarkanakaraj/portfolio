@@ -11,7 +11,7 @@ export default function Resumes() {
   useEffect(() => {
     Aos.init({
       duration:1500,
-    // Animation duration in milliseconds
+     // Animation duration in milliseconds
     });
   }, []);
   function WithLabelExample({ now, label }) {
@@ -131,12 +131,17 @@ export default function Resumes() {
                         <WithLabelExample now={85} label={85} />
                         <div className="skill-name">Java Script</div>
                         <WithLabelExample now={70} label={70} />
+                        <div className="skill-name">bootstrap</div>
+                        <WithLabelExample now={90} label={90} />
                         <div className="skill-name">Next js</div>
 
                         <WithLabelExample now={75} label={75} />
                         <div className="skill-name">React bootstrap</div>
 
                         <WithLabelExample now={80} label={80} />
+                        <div className="skill-name">sass</div>
+
+                        <WithLabelExample now={90} label={90} />
                       </div>
                       <br /> <br />
                     </Col>

@@ -9,7 +9,7 @@ import AOS from 'aos';
 function Project() {
   useEffect(() => {
     AOS.init({
-      duration: 1500, // Animation duration in milliseconds
+      duration: 1000, // Animation duration in milliseconds
   
     });
   }, []);
@@ -23,7 +23,7 @@ function Project() {
         <Row className="g-5 m-2 ">
           <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1" >
-              <Card.Img src="calculator.png" height={"auto"} className="project-img" />
+              <Card.Img src="calculator-min.png" height={"auto"} className="project-img" />
               <Card.Body>
                 <div className="tittle-flex">
                   <Card.Title className="tittle">Calculator</Card.Title>
@@ -50,7 +50,7 @@ function Project() {
           </Col>
           <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1">
-              <Card.Img src="weather.png" height={"auto"} className="project-img" />
+              <Card.Img src="weather-min.png" height={"auto"} className="project-img" />
               <Card.Body>
                 <div className="tittle-flex">
                   <Card.Title className="tittle">Weather-app</Card.Title>
@@ -77,7 +77,7 @@ function Project() {
           </Col>
           <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1">
-              <Card.Img src="todo.png" height={"auto"} className="project-img"/>
+              <Card.Img src="todo-min.png" height={"auto"} className="project-img"/>
               <Card.Body>
                 <div className="tittle-flex">
                   <Card.Title className="tittle">To-Do app</Card.Title>
@@ -130,7 +130,7 @@ A responsive form project using React, EmailJS for seamless submissions, and rob
           </Col>
           <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1">
-              <Card.Img src="Maths.png" height={"auto"} className="project-img"/>
+              <Card.Img src="Maths-min.png" height={"auto"} className="project-img"/>
               <Card.Body>
                 <div className="tittle-flex">
                   <Card.Title className="tittle">OWN</Card.Title>
@@ -157,7 +157,7 @@ A responsive form project using React, EmailJS for seamless submissions, and rob
           </Col>
           <Col sm={12} md={6} lg={4} data-aos="fade-up"data-aos-anchor-placement="top-center" >
             <Card className="card1">
-              <Card.Img src="triplechoco.png" height={"auto"} className="project-img"/>
+              <Card.Img src="triplechoco-min.png" height={"auto"} className="project-img"/>
               <Card.Body>
                 <div className="tittle-flex">
                   <Card.Title className="tittle">Triple-Choco</Card.Title>
