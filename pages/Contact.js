@@ -38,7 +38,8 @@ export default function Contact() {
   const [showSuccess, setShowSuccess] = useState(false);
   useEffect(()=>{
     Aos.init({
-      duration:1500
+      duration:1500,
+      once:true
      
     })
   },[]);
@@ -160,7 +161,7 @@ const sendEmail = (e) => {
           <h1 align="center">Contact With Me</h1>
           <br /><br /><br />
           <Row>
-            <Col md={12} lg={4} data-aos="zoom-in">
+            <Col md={12} lg={4} data-aos="fade-up" >
               <Card>
                 <Card.Img variant="top" src="/contact.jpg" height="auto" className='p-4' />
                 <Card.Body>
@@ -198,7 +199,7 @@ const sendEmail = (e) => {
               </Card>
               <br /><br />
             </Col>
-            <Col md={12} lg={8} data-aos="zoom-in">
+            <Col md={12} lg={8} data-aos="fade-up">
               <Card>
                 <Card.Body>
                   <Card.Text>
